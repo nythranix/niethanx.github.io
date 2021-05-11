@@ -1,0 +1,96 @@
+baseurl      = "https://niethanx.github.io"
+title        = "Ali Habibi"
+languageCode = "en-us"
+theme        = "hello-friend-ng"
+paginate     = 100
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+metaDataFormat = "yaml"
+publishDir   = "docs"
+
+disableRSS   = true
+disableKinds = ["RSS"]
+
+[author]
+  name = "Ali Habibi"
+
+[taxonomies]
+    tag      = "tags"
+    category = "categories"
+    series   = "series"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  homeSubtitle = "Hi i am a computer scientist"
+  backgroundImage = "./img/test.jpg"
+
+  enableThemeToggle = true
+  enableSharingButtons = false
+  disableReadOtherPosts = true
+
+  justifyContent = true
+
+  # Metadata mostly used in document's head
+  description = "My new homepage or blog"
+  keywords = "homepage, blog"
+  images = [""]
+
+  footerLeft = "Powered by Hugo"
+  # footerRight = " "
+
+[params.favicon.color]
+	mask = "#67a2c9"
+	msapplication = "#67a2c9"
+	theme = "#67a2c9"
+
+[params.logo]
+	logoMark     = ">"
+	logoText     = "$ cd /home/"
+	logoHomeLink = "/"
+	logoCursorDisabled = false
+	logoCursorColor    = "#cc338b"
+	logoCursorAnimate  = "2s"
+
+[params.portrait]
+  path     = "./img/niethanx.png"
+  alt      = "Portrait"
+  maxWidth = "400px"
+
+[[params.social]]
+	name = "email"
+	url = "mailto:ali.habibi.1995@gmail.com"
+
+[[params.social]]
+	name = "instagram"
+	url = "https://www.instagram.com/niethanx/"
+
+[[params.social]]
+	name = "twitter"
+	url = "https://www.twitter.com/niethanx/"
+
+[[params.social]]
+	name = "linkedin"
+	url  = "https://www.linkedin.com/in/ali-habibi-04ba43b5/"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "posts/"
+
+[outputs]
+    home = [ "HTML", "RSS", "JSON"]
