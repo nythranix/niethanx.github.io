@@ -41,7 +41,7 @@ disableKinds = ["RSS"]
   justifyContent = true
 
   # Metadata mostly used in document's head
-  description = "My new homepage or blog"
+  description = ":)"
   keywords = "homepage, blog"
   images = [""]
 
