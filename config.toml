@@ -26,12 +26,12 @@ disableKinds = ["RSS"]
     series   = "series"
 
 [params]
-  dateform        = "Jan 2, 2006"
+  dateform        = "Jan 2, 2021"
   dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04"
+  dateformNum     = "2021-01-02"
+  dateformNumTime = "2021-01-02 15:04"
 
-  homeSubtitle = "Hi i am a computer scientist"
+#  homeSubtitle = "Hi i am a computer scientist"
   backgroundImage = "./img/test.jpg"
 
   enableThemeToggle = true
@@ -87,10 +87,10 @@ disableKinds = ["RSS"]
     identifier = "about"
     name       = "About"
     url        = "about/"
-  [[menu.main]]
-    identifier = "posts"
-    name       = "Posts"
-    url        = "posts/"
+#  [[menu.main]]
+#    identifier = "posts"
+#    name       = "Posts"
+#    url        = "posts/"
 
 [outputs]
     home = [ "HTML", "RSS", "JSON"]
