@@ -80,7 +80,7 @@ disableKinds = ["RSS"]
 
 [[params.social]]
 	name = "linkedin"
-	url  = "https://www.linkedin.com/in/ali-habibi-04ba43b5/"
+	url  = "https://www.linkedin.com/in/niethanx/"
 
 [menu]
   [[menu.main]]
